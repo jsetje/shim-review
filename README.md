@@ -50,10 +50,9 @@ Who is the secondary contact for security updates, etc.
 
 -------------------------------------------------------------------------------
 Please create your shim binaries starting with the 15.3 shim release tar file:
-https://github.com/rhboot/shim/releases/download/15.3/shim-15.3.tar.bz2
-
-This matches https://github.com/rhboot/shim/releases/tag/15.3 and contains
-the appropriate gnu-efi source.
+ https://github.com/rhboot/shim/releases/download/15.3/shim-15.3.tar.bz2
+ This matches https://github.com/rhboot/shim/releases/tag/15.3 and contains
+ the appropriate gnu-efi source.
 -------------------------------------------------------------------------------
 [Please confirm]
 
@@ -83,8 +82,9 @@ What exact implementation of Secureboot in GRUB2 ( if this is your bootloader ) 
 [your text here]
 
 -------------------------------------------------------------------------------
-If bootloader, shim loading is, GRUB2, and previous shims were trusting affected
-by CVE-2020-14372, CVE-2020-25632, CVE-2020-25647, CVE-2020-27749,
+If the bootloader that shim is loading is GRUB2, and previous shims were trusting
+is affected by
+  CVE-2020-14372, CVE-2020-25632, CVE-2020-25647, CVE-2020-27749,
   CVE-2020-27779, CVE-2021-20225, CVE-2021-20233, CVE-2020-10713,
   CVE-2020-14308, CVE-2020-14309, CVE-2020-14310, CVE-2020-14311, CVE-2020-15705,
   and if you were shipping the shim_lock module CVE-2021-3418
